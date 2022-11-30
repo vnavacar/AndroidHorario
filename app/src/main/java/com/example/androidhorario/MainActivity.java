@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
-    public static ArrayList<Evento> eventos =
+    public static ArrayList<Evento> asignaturas =
             new ArrayList<>();
 
     @Override
@@ -33,7 +33,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         switch (v.getId()) {
             case R.id.btAnadirClase:
-                intent = new Intent(this, NuevaClaseActivity.class);
+                intent = new Intent(this, NuevaClase.class);
                 startActivity(intent);
                 break;
             case R.id.btVerHorario:
