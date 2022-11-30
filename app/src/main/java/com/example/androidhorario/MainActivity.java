@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
-    public static ArrayList<evento> eventos =
+    public static ArrayList<Evento> eventos =
             new ArrayList<>();
 
     @Override

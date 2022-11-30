@@ -1,12 +1,12 @@
 package com.example.androidhorario;
 
-public class evento {
+public class Evento {
 
     private String nombre;
     private String dia;
     private String hora;
 
-    public evento(String nombre, String dia, String hora) {
+    public Evento(String nombre, String dia, String hora) {
         this.nombre = nombre;
         this.dia = dia;
         this.hora = hora;
