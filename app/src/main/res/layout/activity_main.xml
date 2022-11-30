@@ -36,4 +36,4 @@
                 android:layout_height="wrap_content"
                 android:text="@string/lb_que_toca_ahora" />
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
