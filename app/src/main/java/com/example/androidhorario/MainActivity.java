@@ -37,7 +37,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.btVerHorario:
-                intent = new Intent(this, VerHorarioActivity.class);
+                intent = new Intent(this, verHorario.class);
                 startActivity(intent);
                 break;
             case R.id.btQueTocaAhora:
