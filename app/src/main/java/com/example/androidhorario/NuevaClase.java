@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import java.lang.reflect.Array;
 
+import static com.example.androidhorario.MainActivity.asignaturas;
+
 
 
 public class NuevaClase extends Activity

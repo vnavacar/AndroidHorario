@@ -6,6 +6,7 @@ import android.widget.TextView;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+import static com.example.androidhorario.MainActivity.asignaturas;
 public class consultaActivity  extends Activity {
 
     @Override

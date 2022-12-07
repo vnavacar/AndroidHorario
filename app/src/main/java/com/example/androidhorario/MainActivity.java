@@ -41,7 +41,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.btQueTocaAhora:
-                intent = new Intent(this, QueTocaAhoraActivity.class);
+                intent = new Intent(this, consultaActivity.class);
                 startActivity(intent);
                 break;
             default:
