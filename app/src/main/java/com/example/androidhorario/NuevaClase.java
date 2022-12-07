@@ -19,7 +19,7 @@ public class NuevaClase extends Activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nueva_clase);
+        setContentView(R.layout.activity_nuevaclase);
 
         Button btAnadir = findViewById(R.id.btAnadir);
         btAnadir.setOnClickListener(this);
